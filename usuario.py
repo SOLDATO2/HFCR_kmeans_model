@@ -35,6 +35,7 @@ def enviar_dados():
         info = int(input("Quantos dias se passaram apos o ataque de coracao? (ex: 3): "))
         informacoes.append(info)
         info = input("O examinado morreu apos o ataque?(yes/no): ")
+        informacoes.append(info)
     elif escolha == "yes":
         informacoes = [40, "no", 100, "no", 20, "no", 263358.03, 1.1, 100, "Male", "no", 4, "no"]
     
